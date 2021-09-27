@@ -1,0 +1,41 @@
+{
+  "name": "react-hanger",
+  "version": "0.0.1",
+  "description": "Set of a helpful hooks, for different specific to some primitives types state changing helpers",
+  "author": "Andrey Los",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
+    "lint": "eslint src --max-warnings 0",
+    "lint:fix": "npm run lint -- --fix",
+    "tsc": "tsc"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@testing-library/react-hooks": "3.3.0",
+    "@types/jest": "25.2.3",
+    "@typescript-eslint/eslint-plugin": "3.1.0",
+    "@typescript-eslint/parser": "3.1.0",
+    "babel-eslint": "10.1.0",
+    "eslint": "7.2.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-config-react-app": "5.2.1",
+    "eslint-plugin-flowtype": "4.7.0",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-jest": "^23.13.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "3.1.3",
+    "eslint-plugin-react": "7.20.0",
+    "eslint-plugin-react-hooks": "2.5.1",
+    "jest": "26.0.1",
+    "prettier": "2.0.5",
+    "react": "16.13.1",
+    "react-dom": "^16.8.0",
+    "react-testing-library": "^16.8.0",
+    "ts-jest": "26.1.0",
+    "typescript": "3.9.5"
+  }
+}
